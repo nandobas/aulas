@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.app{
+    width: 100%;
+    height: 800px;
+    border-bottom: 10px solid rgb(6, 108, 15);
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background:linear-gradient(#87CEE8, #E0F6FF);
+}
+
+.output{
+    bottom: -50px;
+    width: 150px;
+    left: 5%;
+    padding: 20px;
+    font-family: system-ui;
+    font-size: xxx-large;
+}
+
+.btn{
+    bottom: 0px;
+    width: 100px;
+    left: 30%;
+    padding: 20px;
+    position: inherit;
+}

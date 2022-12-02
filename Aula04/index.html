@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>.::Aula Jsvascript::.</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="board">
+        <div class="app">
+          <br>
+          <span class="output">_</span>
+          <br>
+          <button id="btnSomar" class="btn" onClick="start('somar', GetValorA(), GetValorB())">Somar</button>
+          <br>
+          <button id="btnDiminuir" class="btn" onClick="start('diminuir', GetValorA(), GetValorB())">Diminuir</button>
+          <br>
+          <button id="btnMultiplicar" class="btn" onClick="start('multiplicar', GetValorA(), GetValorB())">Multiplicar</button>
+          <br>
+          <button id="btnDividir" class="btn" onClick="start('dividir', GetValorA(), GetValorB())">Dividir</button>
+          <br>
+          A: <input id="txtValorA" type="text" value="0"> B: <input id="txtValorB" type="text" value="0">
+        </div>
+    </div>
+    <script src="sistema.js"></script>
+  </body>
+</html

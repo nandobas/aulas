@@ -2,7 +2,7 @@
 const output = document.querySelector(".output");
 
 function start(){
-    let saida = caixaChocolate(1)
+    let saida = listarCaixaChocolate()
     ouput(saida);
     
 }
@@ -29,7 +29,7 @@ function finish() {
 
 function caixaChocolate(posiçao){
 
-    let caixaChocolate = ["bis0", "bis1", "bis2"];
+    let caixaChocolate = ["bis0", "bis1", "bis2", "bis3", "lolo", "bis5", "choquito"];
     return caixaChocolate[posiçao];
 
 }
@@ -39,12 +39,12 @@ function listarCaixaChocolate(){
     let saida   = "<br>";
 
     // laço de repetição FOR
-    for(i=0; i<=2;i++){
+    for(i=0; i < 7;i++){
         /* 
             concatena na variavel 'saída' 
             o valor da variável 'palavra' + a quebra de linha '<br>'
         */
         saida += caixaChocolate(i) + "<br>";
     }
-return saida
+    return saida
 }
